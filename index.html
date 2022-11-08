@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.0/css/all.min.css" integrity="sha512-3PN6gfRNZEX4YFyz+sIyTF6pGlQiryJu9NlGhu9LrLMQ7eDjNgudQoFDK3WSNAayeIKc6B8WXXpo4a7HqxjKwg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="main">
+        <div class="container">
+            <h2 class="text_center">
+                ESCALAB DESAFIO MERN
+            </h2>
+            <h3 class="text_center">
+                Country Search
+            </h3>
+            <form action="">
+                <div class="row_container_widgets">
+                    <div class="column_left">
+                        <input class="input_search" type="text" placeholder="Ingrese Pais">
+                        <button class="button_search" type="button">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </div>
+                    <div class="column_right">
+                        <button id="button_dropdown_toggle" type="button" class="button_dropdown_toggle">
+                            Filter Regions
+                            <i id="icon_filer_caret" class="fas fa-caret-down"></i>
+                        </button>
+                        <ul class="ul_regions" id="ul_regions" >
+                            <li>
+                                <a href="?region=Africa">Africa</a>
+                            </li>
+                            <li>
+                                <a href="?region=America">America</a>
+                            </li>
+                            <li>
+                                <a href="?region=Asia">Asia</a>
+                            </li>
+                            <li>
+                                <a href="?region=Europa">Europa</a>
+                            </li>
+                            <li>
+                                <a href="?region=Oceania">Oceania</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </form>
+            <div id="container_items_contries" class="container_items_contries">
+                
+            </div>
+        </div>
+        
+    </div>
+    <footer class="footer">
+
+    </footer>
+    <script src="js/api.js"></script>
+</body>
+</html>

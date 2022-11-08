@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600;800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:wght@600;800&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+.text_center{
+    text-align: center;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    margin: 0px auto;
+    width: 100%;
+    max-width: 900px;
+    background: #e7e7e7;
+    min-height: 100vh;
+}
+.main .container{
+    width: calc(100% - 40px);
+    height: cal(100% - 40px);
+    padding: 20px;
+}
+form .row_container_widgets{
+    width: 100%;
+    /* background: #5e5d5d; */
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 10px 0px;
+    flex-wrap: wrap;
+}
+
+form .button_search{
+    height: 2rem;
+    width: 2rem;
+    border-radius: 100%;
+    outline: none;
+    border: 1px solid #adadad;
+}
+form .column_left{
+    display: flex;
+    gap: 10px;
+}
+form .input_search{
+    height: 2rem;
+    width: 200px;
+    padding: 0 12px;
+    border-radius: 1rem;
+    outline: 1px solid #707070;
+    border: 1px solid #adadad;
+    font-size: 1rem;
+    color: #474747;
+}
+form .button_dropdown_toggle{
+    height: 2.5rem;
+    width: 200px;
+    padding: 0 8px;
+    border-radius: .1rem;
+    border: none;
+    background: #216f8d;
+    color: #e7e7e7;
+    font-size: 1rem;
+}
+form .button_dropdown_toggle i{
+    padding: 0 4px;
+}
+form .column_right .ul_regions{
+    display: none;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: auto;
+    transition: width 2s, height 4s;
+}
+form .column_right .ul_regions li{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    padding: 2px 5px;
+}
+form .column_right .ul_regions li a{
+    text-decoration: none;
+    font-size: 0.9rem;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    color: #216f8d;
+}
