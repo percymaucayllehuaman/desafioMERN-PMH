@@ -20,10 +20,12 @@
             <form action="">
                 <div class="row_container_widgets">
                     <div class="column_left">
-                        <input class="input_search" type="text" placeholder="Ingrese Pais">
-                        <button class="button_search" type="button">
-                            <i class="fas fa-search"></i>
-                        </button>
+                        <div class="line">
+                            <input id="input_search" class="input_search" type="text" placeholder="Ingrese Pais">
+                            <button class="button_search" type="button">
+                                <i class="fas fa-search"></i>
+                            </button>
+                        </div>
                     </div>
                     <div class="column_right">
                         <button id="button_dropdown_toggle" type="button" class="button_dropdown_toggle">
@@ -32,19 +34,19 @@
                         </button>
                         <ul class="ul_regions" id="ul_regions" >
                             <li>
-                                <a href="?region=Africa">Africa</a>
+                                <a href="#_region=Africa">Africa</a>
                             </li>
                             <li>
-                                <a href="?region=America">America</a>
+                                <a href="#_region=America">Americas</a>
                             </li>
                             <li>
-                                <a href="?region=Asia">Asia</a>
+                                <a href="#_region=Asia">Asia</a>
                             </li>
                             <li>
-                                <a href="?region=Europa">Europa</a>
+                                <a href="#_region=Europa">Europe</a>
                             </li>
                             <li>
-                                <a href="?region=Oceania">Oceania</a>
+                                <a href="#_region=Oceania">Oceania</a>
                             </li>
                         </ul>
                     </div>
@@ -58,7 +60,6 @@
         
     </div>
     <footer class="footer">
-
     </footer>
     <script src="./index.js" type="module"></script>
 </body>
