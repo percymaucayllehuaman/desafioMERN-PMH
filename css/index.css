@@ -160,6 +160,8 @@ form .column_right .ul_regions li a:hover{
     border-radius: 15px;
     background: #fbfbfb;
     border: 1px solid #fefefe;
+    text-decoration: none;
+    color: #292d34;
 }
 .container_items_contries .item:hover{
     /* opacity: .6; */
@@ -224,7 +226,7 @@ form .column_right .ul_regions li a:hover{
 .container .center_container .container_details{
     display: flex;
     flex-wrap: wrap;
-    background: #e7e7e7;
+    background: #f8f8f8;
     border-radius: 1rem;
     justify-content: center;
     height: auto;
@@ -237,10 +239,10 @@ form .column_right .ul_regions li a:hover{
 }
 .container_details .item_detail #img_flag{
     width: auto;
-    height: 150px;
+    height: 120px;
 }
 .container_details .item_detail #img_coat{
-    height: 150px;
+    height: 120px;
     width: auto;
 }
 .container_details .item_detail p{
@@ -258,4 +260,18 @@ form .column_right .ul_regions li a:hover{
 }
 .container_details .item_detail.three{
     justify-content: center;
+}
+
+@media only screen and (max-width: 450px) {
+    .container_items_contries .item{
+        width: 120px;
+    }
+    .container_items_contries .item h2{
+        font-size: 1rem;
+        margin: 0.2rem;
+    }
+    .container_items_contries .item h3{
+        font-size: .9rem;
+        margin: 0.2rem;
+    }
 }
